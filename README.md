@@ -92,3 +92,62 @@ MVC (Model View Controller)
 **Dusmanta Kumar Pradhan**
 
 Java Full Stack Developer (Fresher)
+## 📸 Project Screenshots
+
+### Login Page
+
+![Login](screenshots/login.png)
+
+---
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+### Deposit
+
+![Deposit](screenshots/deposit.png)
+
+---
+
+### Withdraw
+
+![Withdraw](screenshots/withdraw.png)
+
+---
+
+### Fund Transfer
+
+![Transfer](screenshots/transfer.png)
+
+---
+
+### Balance Inquiry
+
+![Balance](screenshots/balance.png)
+
+---
+
+### Transaction History
+
+![History](screenshots/history.png)
+
+---
+
+### Profile
+
+![Profile](screenshots/profile.png)
+
+---
+
+### Change Password
+
+![Change Password](screenshots/change-password.png)
+
+---
+
+### Transaction Receipt
+
+![Receipt](screenshots/receipt.png)
