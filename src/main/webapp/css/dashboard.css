@@ -1,0 +1,475 @@
+/* ==========================
+   DK BANK DASHBOARD CSS
+   ========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#eef2f9;
+}
+
+.wrapper{
+    display:flex;
+    min-height:100vh;
+}
+
+/* ==========================
+   SIDEBAR
+   ========================== */
+
+.sidebar{
+    width:260px;
+    background:#0d1b52;
+    color:#fff;
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    overflow-y:auto;
+}
+
+.logo{
+    height:80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+    font-size:28px;
+    font-weight:bold;
+    border-bottom:1px solid rgba(255,255,255,.15);
+}
+
+.logo i{
+    color:#4ea8ff;
+}
+
+.menu{
+    list-style:none;
+    margin-top:25px;
+}
+
+.menu li{
+    margin:8px 15px;
+}
+
+.menu li a{
+    color:#fff;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:14px 18px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.menu li a i{
+    width:24px;
+    text-align:center;
+}
+
+.menu li a:hover{
+    background:#2962ff;
+    transform:translateX(6px);
+}
+
+.menu li.active a{
+    background:#2962ff;
+}
+
+.logout{
+    margin-top:40px;
+}
+
+.logout a{
+    color:#ff7b7b !important;
+}
+
+/* ==========================
+   MAIN SECTION
+   ========================== */
+
+.main{
+    margin-left:260px;
+    width:calc(100% - 260px);
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+
+/* ==========================
+   NAVBAR
+   ========================== */
+
+.topbar{
+    height:80px;
+    background:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 30px;
+    box-shadow:0 2px 12px rgba(0,0,0,.08);
+}
+
+.left h2{
+    color:#1f2d3d;
+}
+
+.right{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+.notification{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    background:#f5f7fb;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+
+.notification i{
+    font-size:18px;
+}
+
+.profile{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.profile-icon{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    background:#2962ff;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+}
+
+.profile-info h4{
+    color:#1f2d3d;
+}
+
+.welcome{
+    color:gray;
+    font-size:13px;
+}
+
+/* ==========================
+   CONTENT
+   ========================== */
+
+.content{
+    padding:30px;
+    flex:1;
+}
+/* ===========================
+   WELCOME BANNER
+=========================== */
+
+.welcome-banner{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:linear-gradient(135deg,#2563eb,#4f46e5);
+
+    color:white;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    margin-bottom:35px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+.welcome-text h1{
+
+    font-size:24px;
+
+    font-weight:400;
+
+    margin-bottom:8px;
+
+}
+
+.welcome-text h2{
+
+    font-size:48px;
+
+    margin-bottom:15px;
+
+}
+
+.welcome-text p{
+
+    font-size:20px;
+
+    opacity:.9;
+
+}
+
+.welcome-image{
+
+    font-size:150px;
+
+    opacity:.20;
+
+}
+/* ===========================
+   ACCOUNT CARDS
+=========================== */
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+    margin-bottom:40px;
+
+}
+
+.card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.card i{
+
+    font-size:35px;
+
+    color:#2962ff;
+
+    margin-bottom:20px;
+
+}
+
+.card h3{
+
+    color:#666;
+
+    font-size:16px;
+
+    margin-bottom:10px;
+
+}
+
+.card h2{
+
+    color:#1d3557;
+
+}
+
+/* ===========================
+   SECTION TITLE
+=========================== */
+
+.section-title{
+
+    margin-bottom:20px;
+
+    color:#1d3557;
+
+}
+
+/* ===========================
+   ACTION CARDS
+=========================== */
+
+.action-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+.action-card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    text-decoration:none;
+
+    color:#1d3557;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.action-card:hover{
+
+    transform:translateY(-10px);
+
+    background:#2962ff;
+
+    color:white;
+
+}
+
+.action-card i{
+
+    font-size:45px;
+
+    margin-bottom:18px;
+
+    display:block;
+
+}
+
+.action-card span{
+
+    font-size:20px;
+
+    font-weight:bold;
+
+}
+
+.logout-card{
+
+    color:#ff4d4f;
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer{
+
+    background:white;
+
+    padding:20px;
+
+    text-align:center;
+
+    color:#666;
+
+    margin-top:40px;
+
+    box-shadow:0 -2px 10px rgba(0,0,0,.08);
+
+}
+
+
+
+/* ===========================
+   Recent Transactions
+=========================== */
+
+.recent-transactions{
+
+    background:#fff;
+
+    margin-top:40px;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+.recent-transactions h2{
+
+    margin-bottom:20px;
+
+    color:#1d3557;
+
+}
+
+.recent-transactions table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.recent-transactions th{
+
+    background:#2962ff;
+
+    color:white;
+
+    padding:15px;
+
+    text-align:left;
+
+}
+
+.recent-transactions td{
+
+    padding:15px;
+
+    border-bottom:1px solid #eee;
+
+}
+
+.recent-transactions tr:hover{
+
+    background:#f5f9ff;
+
+}
+
+.success{
+
+    background:#d4edda;
+
+    color:#28a745;
+
+    padding:6px 15px;
+
+    border-radius:20px;
+
+    font-weight:bold;
+
+}
+
