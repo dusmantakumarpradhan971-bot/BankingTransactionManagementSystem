@@ -2,31 +2,31 @@
 
 ## 📖 Project Overview
 
-The Banking Transaction Management System is a Java-based web application developed using JSP, Servlets, JDBC, and Oracle Database following the MVC Architecture.
+The **Banking Transaction Management System** is a Java-based web application developed using **Java, JSP, Servlets, JDBC, Oracle Database, HTML, CSS, and JavaScript** following the **MVC (Model-View-Controller)** architecture.
 
-The application allows users to securely perform banking operations such as deposits, withdrawals, fund transfers, balance inquiry, profile management, password updates, and transaction history.
+This application enables users to perform secure banking operations such as deposits, withdrawals, fund transfers, balance inquiry, transaction history, profile management, and password updates. It ensures data consistency using JDBC transaction management with commit and rollback mechanisms.
 
 ---
 
 ## 🚀 Features
 
-- 🔐 User Login Authentication
-- 🏦 Dashboard
+- 🔐 Secure User Login
+- 🏠 Interactive Dashboard
 - 💰 Deposit Money
 - 💸 Withdraw Money
 - 🔄 Fund Transfer
-- 📄 Transaction Receipt
-- 📊 Transaction History
-- 👤 Profile Management
+- 💳 Balance Inquiry
+- 📜 Transaction History
+- 📄 Recent Transactions
+- 👤 Edit Profile
 - 🔒 Change Password
-- 💵 Balance Inquiry
-- 🚪 Logout
-- 📅 Date & Time Display
+- 🚪 Secure Logout
 - 🛡 Session Management
+- ✅ JDBC Commit & Rollback Transactions
 
 ---
 
-## 🛠 Technologies Used
+## 🛠 Tech Stack
 
 - Java
 - JSP
@@ -38,41 +38,100 @@ The application allows users to securely perform banking operations such as depo
 - JavaScript
 - Apache Tomcat 9
 - Eclipse IDE
+- Git & GitHub
 
 ---
 
-## 🏗 Architecture
+## 🏗 Project Architecture
 
-MVC (Model View Controller)
+The project follows the **MVC (Model-View-Controller)** architecture.
 
-- Model
-- DAO
-- Controller (Servlet)
-- View (JSP)
+- **Model** – Java Beans
+- **DAO** – Database Operations
+- **Controller** – Java Servlets
+- **View** – JSP Pages
 
 ---
 
-## 📂 Project Modules
+## 📂 Modules
 
 - Login Module
 - Dashboard Module
 - Deposit Module
 - Withdraw Module
 - Fund Transfer Module
-- Transaction History Module
 - Balance Inquiry Module
-- Profile Module
+- Transaction History Module
+- Profile Management Module
 - Change Password Module
 
 ---
 
 ## 🔒 Security Features
 
+- User Authentication
 - Session Validation
 - Password Verification
 - Change Password Validation
-- JDBC Commit & Rollback
-- Authentication Check
+- JDBC Transaction Management (Commit & Rollback)
+- Input Validation
+
+---
+
+# 📸 Project Screenshots
+
+## 🔐 Login Page
+
+![Login](screenshots/Screenshot%202026-07-06%20200821.png)
+
+---
+
+## 🏠 Dashboard
+
+![Dashboard](screenshots/Screenshot%202026-07-06%20200919.png)
+
+---
+
+
+## 👤 Profile
+
+![Profile](screenshots/Screenshot%202026-07-06%20201027.png)
+
+---
+
+## 💰 Deposit Money
+
+![Deposit](screenshots/Screenshot%202026-07-06%20201050.png)
+
+---
+
+## 💸 Withdraw Money
+
+![Withdraw](screenshots/Screenshot%202026-07-06%20201105.png)
+
+---
+
+## 🔄 Fund Transfer
+
+![Transfer](screenshots/Screenshot%202026-07-06%20201136.png)
+
+---
+
+## 💳 Balance Inquiry
+
+![Balance Inquiry](screenshots/Screenshot%202026-07-06%20201207.png)
+
+---
+
+## 📜 Transaction History
+
+![Transaction History](screenshots/Screenshot%202026-07-06%20201228.png)
+
+---
+
+## 🔒 Change Password
+
+![Change Password](screenshots/Screenshot%202026-07-06%20211505.png)
 
 ---
 
@@ -92,57 +151,20 @@ MVC (Model View Controller)
 **Dusmanta Kumar Pradhan**
 
 Java Full Stack Developer (Fresher)
-## 📸 Project Screenshots
 
-### Login Page
+📧 Email: *(Add your email here if you want)*
 
-![Login](screenshots/Screenshot 2026-07-06 200821.png)
-
----
-
-### Dashboard
-
-![Dashboard](screenshots/Screenshot 2026-07-06 200919.png)
+🔗 GitHub: https://github.com/dusmantakumarpradhan971-bot
 
 ---
 
-### Deposit
+## ⭐ Future Enhancements
 
-![Deposit](screenshots/Screenshot 2026-07-06 201050.png)
-
----
-
-### Withdraw
-
-![Withdraw](screenshots/Screenshot 2026-07-06 201105.png)
-
----
-
-### Fund Transfer
-
-![Transfer](screenshots/Screenshot 2026-07-06 201136.png)
-
----
-
-### Balance Inquiry
-
-![Balance](screenshots/Screenshot 2026-07-06 201207.png)
-
----
-
-### Transaction History
-
-![History](screenshots/Screenshot 2026-07-06 201228.png)
-
----
-
-### Profile
-
-![Profile](screenshots/Screenshot 2026-07-06 201027.png)
-
----
-
-### Change Password
-
-![Change Password](screenshots/change-password.png)
-
+- Spring Boot Migration
+- Spring Security Integration
+- Email Notifications
+- PDF Statement Download
+- REST API Development
+- Mobile Banking Integration
+- Docker Deployment
+- Cloud Deployment (AWS / Render / Oracle Cloud)
