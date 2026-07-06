@@ -96,49 +96,49 @@ Java Full Stack Developer (Fresher)
 
 ### Login Page
 
-![Login](screenshots/login.png)
+![Login](screenshots/Screenshot 2026-07-06 200821.png)
 
 ---
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/Screenshot 2026-07-06 200919.png)
 
 ---
 
 ### Deposit
 
-![Deposit](screenshots/deposit.png)
+![Deposit](screenshots/Screenshot 2026-07-06 201050.png)
 
 ---
 
 ### Withdraw
 
-![Withdraw](screenshots/withdraw.png)
+![Withdraw](screenshots/Screenshot 2026-07-06 201105.png)
 
 ---
 
 ### Fund Transfer
 
-![Transfer](screenshots/transfer.png)
+![Transfer](screenshots/Screenshot 2026-07-06 201136.png)
 
 ---
 
 ### Balance Inquiry
 
-![Balance](screenshots/balance.png)
+![Balance](screenshots/Screenshot 2026-07-06 201207.png)
 
 ---
 
 ### Transaction History
 
-![History](screenshots/history.png)
+![History](screenshots/Screenshot 2026-07-06 201228.png)
 
 ---
 
 ### Profile
 
-![Profile](screenshots/profile.png)
+![Profile](screenshots/Screenshot 2026-07-06 201027.png)
 
 ---
 
@@ -146,8 +146,3 @@ Java Full Stack Developer (Fresher)
 
 ![Change Password](screenshots/change-password.png)
 
----
-
-### Transaction Receipt
-
-![Receipt](screenshots/receipt.png)
